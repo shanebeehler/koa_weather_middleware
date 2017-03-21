@@ -1,0 +1,41 @@
+{
+  "name": "koa_js_weatherdata_middleWare",
+  "version": "1.0.0",
+  "description": "Uses current IP Address to get coordinates from http://ip-api.com and then fetches current weather from http://openweathermap.org and stores in ctx.currentWeather",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test",
+    "start": "./node_modules/.bin/nodemon"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "keywords": [
+    "koa",
+    "koa2",
+    "babel",
+    "es2015"
+  ],
+  "author": "Shane Beehler",
+  "license": "",
+  "bugs": {},
+  "homepage": "",
+  "dependencies": {
+    "@segment/to-iso-string": "^1.0.1",
+    "koa": "^2.0.0-alpha.3",
+    "koa-http-request": "^2.0.0",
+    "pug": "^2.0.0-beta11"
+  },
+  "devDependencies": {
+    "babel-plugin-syntax-async-functions": "^6.8.0",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-preset-es2015-node5": "^1.1.2",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "mocha": "^2.3.4",
+    "nodemon": "^1.8.1",
+    "should": "^8.2.0",
+    "supertest": "^1.1.0"
+  }
+}
